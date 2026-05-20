@@ -8,3 +8,6 @@ int tap(int A[], int B[],int N ){
         }
     return c;
 }
+int main(){
+return 0;
+}
