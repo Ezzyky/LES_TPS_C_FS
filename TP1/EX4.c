@@ -1,16 +1,15 @@
 #include <stdio.h>
 int main(){
-    int i,dimension,s=0,max=0,position,j;
+    int i,dimension,s=0,max,position=0,j;
     printf("entre un valeur int: ");
     scanf("%d",&dimension);
-    while (dimension>50 || dimension==0)
+    while (dimension>50 || dimension<=0)
     {
         printf("(dimension maximale: 50 composantes)\n: ");
         printf("entre un valeur int : ");
         scanf("%d",&dimension);
     }
     int t[dimension];
-    position=0;
     for(i=0;i<dimension;i++){
         printf ("entree la valeur d index %d:",i+1);
         scanf("%d",&t[i]);
